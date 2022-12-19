@@ -1,0 +1,19 @@
+#quote-box{
+    border:1px solid red;
+    box-shadow:9px 10px;
+    height:auto;
+  
+  }
+  #author{
+    font-style:italic;
+  }
+  #text{
+    font-size:21px;
+  }
+  #tweet-quote{
+    text-shadow:0.8px 0.58px gray;
+    transition: background-color 0.9s ease;
+  }
+  body{
+    transition: background-color 0.9s ease;
+  }

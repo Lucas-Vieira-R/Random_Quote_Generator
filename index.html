@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Random Quote Generator</title>
+  <link rel="stylesheet" href='style.css'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="app.js" defer></script>
+
+</head>
+<body id='main'>
+  <main  class='d-flex flex-column mt-5'>
+    <div class='container w-50 p-5 d-flex justify-self-center flex-column mt-5 border rounded bg-light' id='quote-box'>
+      <div class='d-flex flex-column'>
+        <p class='text-center' id='text'></p>
+        <p class='align-self-end' id='author'></p>
+      </div>
+      <div class=' d-flex justify-content-around mt-4'>
+        <button class='btn btn-dark ' id='new-quote' onclick='getApi(url_api)'>New Quote</button>
+      <a class='btn ' id='tweet-quote' target='_blank' href="twitter.com/intent/tweet">Tweet Quote</a>
+      </div>     
+      
+    </div>
+  </main>
+
+</body>
+
+</html>
